@@ -1,0 +1,63 @@
+#about {
+    background: var(--bg-1);
+}
+.about_container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    align-items: center;
+   
+}
+
+.aboutme {
+    width: 60%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--bg-0)) ;
+    display: grid;
+    place-items: center;
+}
+
+.aboutmeimg {
+    width: 70%;
+    margin: auto 0;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+}
+
+.aboutmeimg:hover {
+    transform: rotate(0deg);
+}
+
+.about_content p {
+    margin: 2rem 0 2.6rem;
+    color: var(--wyt-1);
+}
+
+@media screen and (max-width: 1024px) {
+    .about_container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .aboutme {
+        width: 40%;
+        margin: 2rem auto 4rem;
+    }
+    .about_content {
+        margin: 1rem 0 1.5rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .aboutme {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+    .about_content{
+        text-align: center;
+    }
+    .about_content p {
+        margin: 1.5rem 0;
+    }
+}

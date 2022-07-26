@@ -1,0 +1,38 @@
+footer {
+    background: var(--txt-0);
+    padding: 3rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+}
+
+footer a{
+    color: var(--bg-0);
+}
+
+.footer_logo {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.footlinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+}
+
+.footer_cr {
+    margin-bottom: 4rem;
+    color: var(--bg-0);
+}
+
+@media screen and (max-width: 600px) {
+    .footlinks {
+        flex-direction: column;
+        gap: 1.5rem;
+         }
+}

@@ -1,0 +1,33 @@
+#skills {
+    background: var(--bg-1);
+}
+.S_Head {
+    color: var(--txt-0);
+}
+.S_title {
+    color: var (--wyt-0);
+}
+.container_skill {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    
+}
+
+.skillcards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+    margin: 1.5rem;
+    width:auto;
+    height: auto;
+}
+
+.skilllevel {
+    background: var(--bg-0);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    width: 200px;
+}
