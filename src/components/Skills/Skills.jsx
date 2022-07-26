@@ -187,12 +187,7 @@ const Skills = () => {
               <article className='skilllevel'>
                 <h4 className='S_sub'>Figma</h4>
 
-                <AnimatedProgressProvider
-                  valueStart={0}
-                  valueEnd={60}
-                  duration={2}
-                  easingFunction={easeQuadInOut}
-                  >
+                <AnimatedProgressProvider valueStart={0} valueEnd={50} duration={2} easingFunction={easeQuadInOut}>
                     
                   {value => {
                     const roundedValue = Math.round(value);
